@@ -1,7 +1,7 @@
 package com.company;
 
 public class FizzBuzzResponder {
-    public String Respond(int i) {
+    public String Respond(Integer i) {
         if(i % 15 == 0)
             return "FizzBuzz";
         if(i % 3 == 0)
@@ -9,6 +9,6 @@ public class FizzBuzzResponder {
         if(i % 5 == 0)
             return "Buzz";
 
-        return Integer.toString(i);
+        return i.toString();
     }
 }
